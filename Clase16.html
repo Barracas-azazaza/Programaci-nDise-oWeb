@@ -1,0 +1,14 @@
+<!--26/7/19, Elaborado Por Camilo Andrés Barragán Gómez-->
+<html>
+    <head>
+        <title>Ejemplo de Frame con columnas</title>
+    </head>
+    <frameset cols="300, 50%, 50%"> <!--Etiqueta de frameset, la función de ellos es refrescar sólo esa parte de la página cuando se hagan cambios, se puede utilizar como si fuera un div, en este caso cols es para dividirlo en columnas con los respectivos tamaños, 300 px, 50% y 50%-->
+        <frame name="indice" src="Clase15.html"> <!--frame le da el orden indicado de los tamaños arriba-->
+        <frame name="principal" src="https://www.uniempresarial.edu.co/">
+        <frame name="EO" src="Clase16.html"
+        <noframe> <!--Se utiliza si el navegador no puede cargar los frame-->
+            <p>Si tu navegador no acepta frames, estarás viendo este mensaje. ¡Lo sentimos!</p>
+        </noframe>
+    </frameset>
+</html>
