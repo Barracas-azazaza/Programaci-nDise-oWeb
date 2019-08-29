@@ -2,7 +2,7 @@
     $n1 = $_POST ["n1"];
     $n2 = $_POST ["n2"];
     $operador = $_POST["operador"];
-    $resultado = ($n1 != "" AND $n2 != "") ?
+    echo ($n1 != "" AND $n2 != "") ?
         $operador=="suma" 
         ? $n1+$n2
         : ($operador=="resta"
